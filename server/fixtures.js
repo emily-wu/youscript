@@ -55,7 +55,7 @@ if (Posts.find().count() === 0) {
       title: 'Test post #' + i,
       author: sam.profile.name,
       userId: sam._id,
-      url: 'http://google.com/?q=test-' + i,
+      url: 'https://docs.google.com/document/d/1k8LZK6X7qLbBWg1028ZZXwR28Ha8a5oomjok5tVU4-w/edit?usp=sharing',
       submitted: new Date(now - i * 3600 * 1000),
       commentsCount: 0,
       upvoters: [],
