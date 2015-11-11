@@ -49,17 +49,4 @@ if (Posts.find().count() === 0) {
     upvoters: [],
     votes: 0
   });
-
-  for (var i = 0; i < 10; i++) {
-    Posts.insert({
-      title: 'Test post #' + i,
-      author: sam.profile.name,
-      userId: sam._id,
-      url: 'https://docs.google.com/document/d/1k8LZK6X7qLbBWg1028ZZXwR28Ha8a5oomjok5tVU4-w/edit?usp=sharing',
-      submitted: new Date(now - i * 3600 * 1000),
-      commentsCount: 0,
-      upvoters: [],
-      votes: 0
-    });
-  }
 }
