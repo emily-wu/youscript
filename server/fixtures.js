@@ -13,7 +13,7 @@ if (Posts.find().count() === 0) {
   var tom = Meteor.users.findOne(tomId);
   
   var telescopeId = Posts.insert({
-    title: 'Fanfic1',
+    title: 'You Script 1',
     userId: sam._id,
     author: sam.profile.name,
     url: 'https://docs.google.com/document/d/1g62WURfkuVBWrzzFvWNEbj_My5AgOBW1dbdMsYTwBKo/edit?usp=sharing',
@@ -40,7 +40,7 @@ if (Posts.find().count() === 0) {
   });
   
   Posts.insert({
-    title: 'Fanfic2',
+    title: 'You Script 2',
     userId: tom._id,
     author: tom.profile.name,
     url: 'https://docs.google.com/document/d/1k8LZK6X7qLbBWg1028ZZXwR28Ha8a5oomjok5tVU4-w/edit?usp=sharing',
